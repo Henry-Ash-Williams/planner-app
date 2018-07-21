@@ -1,8 +1,9 @@
 @echo off
 
-SET /p name="Please Enter Your Components Name: "
+SET /p fileName="Please Enter Your Components Name: "
+SET varName=%fileName:-=%
 SET dir=%~dp0
-SET component=%dir%components\%name%
+SET component=%dir%components\%fileName%
 echo Creating A New Component In: %component%
 
 mkdir %component%
@@ -27,22 +28,20 @@ cd ..
 
 echo. 2>index.js
 
-::Removes All Hyphens From The Name Of The Component
-
-set name=%name:-=%
-
 @echo import React, { Component } from 'react';> index.js
 @echo import './css/css/index.css';>> index.js
 @echo. >> index.js
-@echo class %name% extends Component {>> index.js
+@echo class %varName% extends Component {>> index.js
 @echo     render() {>> index.js
 @echo         return ^(>> index.js 
-@echo             ^<div className="%name%"^>>> index.js
+@echo             ^<div className="%fileName%"^>>> index.js
 @echo. >> index.js
 @echo             ^</div^>>> index.js
 @echo         ^);>> index.js
 @echo     }>> index.js
 @echo }>> index.js
-@echo export default %name%;>> index.js
+@echo export default %varName%;>> index.js
+
+
 
 
