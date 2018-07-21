@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.Navbar {
+  height: 55px;
+  background-color: #2196F3;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .Navbar button {
+    width: 55px;
+    height: 55px;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF; }
+    .Navbar button i {
+      width: auto;
+      font-size: 30px; }
+
+/*# sourceMappingURL=index.css.map */
