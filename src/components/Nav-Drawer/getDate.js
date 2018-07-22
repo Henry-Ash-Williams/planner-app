@@ -48,5 +48,5 @@ export default function getDateStr() {
         }
         
     }
-    return `${day} ${num}${end} ${month} ${year}`
+    return `${day} ${num + 1}${end} ${month} ${year}`
 }
