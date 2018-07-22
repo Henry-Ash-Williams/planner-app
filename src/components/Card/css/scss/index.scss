@@ -1,0 +1,9 @@
+@import '../../../public.scss';
+
+.Card {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid $accent;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
