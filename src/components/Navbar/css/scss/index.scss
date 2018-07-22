@@ -15,11 +15,16 @@ body {
         width: 55px;
         height: 55px;
         background-color: transparent;
-        // color: $text;
-        i {
+        .Open-Nav-Drawer {
             width: auto;
             font-size: 30px;
+            color: $text;
         }
+        
     } 
+}
+
+#Menu-Icon {
+    color: $text;
 }
 

@@ -12,8 +12,12 @@ body {
     width: 55px;
     height: 55px;
     background-color: transparent; }
-    .Navbar button i {
+    .Navbar button .Open-Nav-Drawer {
       width: auto;
-      font-size: 30px; }
+      font-size: 30px;
+      color: #FFFFFF; }
+
+#Menu-Icon {
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=index.css.map */

@@ -14,8 +14,8 @@ class Navbar extends Component {
     render() {
         return (
             <div className="Navbar">
-                <button className="Navbar-Menu-Button" onClick={this.handleClick}>
-                    <i className="material-icons">menu</i> 
+                <button id="Open-Nav-Drawer" className="Navbar-Menu-Button" onClick={this.handleClick}>
+                    <i id="Menu-Icon" className="material-icons">menu</i> 
                 </button>
                 {this.state.isHidden ? null : <NavDrawer handleClick={this.handleClick} />}
             </div>

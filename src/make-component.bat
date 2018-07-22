@@ -1,7 +1,8 @@
+@setlocal enabledelayedexpansion
 @echo off
 
 ::Asks the User To Enter A File Name For Their Component
-SET /p fileName="Please Enter Your Components Name: "
+SET fileName=%1
 ::Creates A Similary Variable To The Name But Without Any Hyphens 
 SET varName=%fileName:-=%
 ::Gets The Current Directory
