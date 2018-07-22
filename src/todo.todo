@@ -1,5 +1,6 @@
 Tasks:
-    ☐ Make slide in animation for Navbar 
+    ☐ Make slide in animation for Navbar
     ☐ Finish CSS for nav-drawer (See ./designs for guide)
     ☐ Make designs for timetable
     ☐ Work on README.md
+    ☐ Make the headers in the nav-drawer dynamic (Task Counter & Date)
