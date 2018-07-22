@@ -31,16 +31,50 @@
     border: none;
     border-bottom: 2px solid $divider;
     h1 {
-        padding-top: 130px;
+        padding-top: 95px;
         padding-left: 50px;
         font-family: $roboto;
         font-weight: 300;
-        font-size: 40px;
+        font-size: 2.5em;
+        color: $primary-text;
     }
     h2 {
-        font-size: 30px;
+        font-size: 1.875em;
         padding-left: 50px;
         font-family: $roboto;
         font-weight: 300;
+        color: $secondary-text;
+    }
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    i {
+        font-size: 2.5925925925925926em;
+    }
+}
+
+.Nav-Drawer-Modal-Content {
+    ul {
+        li {
+            display: flex;
+            align-items: center;
+            // border: 2px solid $accent;
+            // height: 20px;
+            margin: 50px 0px;
+            cursor: pointer;
+            * {
+                display: inline;
+                font-size: 50px;
+                color: $primary-text;
+            } p {
+                font-family: $roboto;
+                font-weight: 300;
+                font-size: 30px;
+                padding-left: 10px;
+                color: $secondary-text;
+            }
+        }
     }
 }
