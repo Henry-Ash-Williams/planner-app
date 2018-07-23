@@ -13,16 +13,4 @@ class App extends Component {
     }
 }
 
-var MongoClient = require('mongodb').MongoClient
-  , assert = require('assert');
-
-var url = 'mongodb://localhost:27017/planner-app';
-
-MongoClient.connect(url, function(err, db) {
-  assert.equal(null, err);
-  console.log("Connected successfully");
-
-  db.close();
-});
-
 export default App;
