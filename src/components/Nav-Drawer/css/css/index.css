@@ -5,9 +5,11 @@
 @keyframes slideIn{
   0%{
     left: -25%;
+    opacity: 0%;
   }
   100%{
     left: 0;
+    opacity: 100%;
   }
 }
 
@@ -19,7 +21,7 @@
   width: 200%;
   height: 100%;
   position: fixed;
-  animation: slideIn 0.3s ease;
+  animation: slideIn 0.4s ease;
   background-color: rgba(0, 0, 0, 0.5); }
 
 .Nav-Drawer-Modal {
@@ -28,7 +30,7 @@
   z-index: 2;
   width: 15%;
   height: 100%;
-  /* animation: slideIn 0.3s ease; */
+  animation: slideIn 0.4s ease;
   background-color: #FFFFFF; }
 
 .Nav-Drawer-Modal-Header {

@@ -8,7 +8,9 @@ class Navbar extends Component {
         this.state = {isHidden: true};
         this.handleClick = this.handleClick.bind(this);
     }
-    handleClick() {
+    handleClick(event) {
+        event.preventDefault();
+        this.setState({opacity: 1}, () => setTimeout(() => this.setState({opacity:0}),400))
         this.setState({isHidden: !this.state.isHidden})
     }
     render() {
