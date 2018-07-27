@@ -1,5 +1,5 @@
 .Card {
-  width: 30%;
+  width: 500px;
   height: 500px;
   margin: auto;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
@@ -11,7 +11,8 @@
     margin-left: 20px;
     font-size: 25px; }
   .Card ul li::before {
-    font-size: 25px;
+    content: "\2022";
+    font-size: 50px;
     margin-right: 10px; }
 
 /*# sourceMappingURL=index.css.map */
