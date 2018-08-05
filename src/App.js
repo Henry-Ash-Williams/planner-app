@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar/index';
-import Card from './components/Card/index'
+import Card from './components/Card/index';
+import AddTaskButton from './components/Add-Task-Button/index';
 
 const tasks = [
     {title : 'Computer Science Exam'},
@@ -13,7 +14,8 @@ class App extends Component {
         return (
             <div className="App">
                 <Navbar />
-                <Card tasks={tasks}/>
+                <Card tasks={tasks} />
+                <AddTaskButton />
             </div>
         );
     }
