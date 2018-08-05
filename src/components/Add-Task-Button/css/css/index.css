@@ -1,11 +1,16 @@
 .Add-Task-Button {
+  position: relative;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: #FF5252; }
   .Add-Task-Button i {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+    user-select: none; }
 
 /*# sourceMappingURL=index.css.map */

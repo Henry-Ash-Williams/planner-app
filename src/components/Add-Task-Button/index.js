@@ -14,7 +14,7 @@ class AddTaskButton extends Component {
     render() {
         return ( 
             <div className="Add-Task-Button" onClick={this.handleClick()}>
-                <i class="material-icons">add</i>
+                <i className="material-icons">add</i>
             </div>
         );
     }
