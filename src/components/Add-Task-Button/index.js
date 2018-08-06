@@ -7,14 +7,20 @@ class AddTaskButton extends Component {
         this.state = {clicked: false};
         this.handleClick = this.handleClick.bind(this);
     }
+
     handleClick() {
-        this.setState.clicked = !this.setState.clicked;
-        console.log(this.setState.clicked);
+        this.setState(prevState => ({
+            clicked: !prevState.clicked
+        }));
+        console.log(this.state.clicked);
     }
+
     render() {
         return ( 
-            <div className="Add-Task-Button" onClick={this.handleClick()}>
-                <i className="material-icons">add</i>
+            <div className="Add-Task">
+                <button className="Add-Task-Button" onClick={this.handleClick}>
+                    <i className="material-icons">add</i>
+                </button>
             </div>
         );
     }

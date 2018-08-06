@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './css/css/index.css';
 
 const Card = (props) => {
@@ -6,7 +6,7 @@ const Card = (props) => {
         <div className="Card">
             <h1>Today</h1>
             <ul>
-                {props.tasks.map(i => <li>{i.title}</li>)}
+                {props.tasks.map((content, index) => <li key={index}>{content.title}</li>)}
             </ul>
         </div>
     )
