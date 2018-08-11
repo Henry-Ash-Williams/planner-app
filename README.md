@@ -1,7 +1,7 @@
 Planner App
 ===========
 
-Built by [Henry Williams](https://github.com/HenryAWilliams), [James Mcqueen](https://github.com/James-McQueen), and Thomas Pellat 
+Built by [Henry Williams](https://github.com/Henry-Ash-Williams), [James Mcqueen](https://github.com/James-McQueen), and Thomas Pellat 
 
 
 

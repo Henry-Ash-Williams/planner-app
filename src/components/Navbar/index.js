@@ -19,7 +19,7 @@ class Navbar extends Component {
                 <button id="Open-Nav-Drawer" className="Navbar-Menu-Button" onClick={this.handleClick}>
                     <i id="Menu-Icon" className="material-icons">menu</i> 
                 </button>
-                {this.state.isHidden ? null : <NavDrawer handleClick={this.handleClick} />}
+                {this.state.isHidden ? null : <NavDrawer content="heck" handleClick={this.handleClick} />}
             </div>
         );
     }
