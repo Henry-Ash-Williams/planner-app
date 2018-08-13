@@ -2,15 +2,12 @@ import styled from 'styled-components';
 
 const NavbarDiv = styled.div`
     
-    *{
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 0;
-        margin-top: 0;    
-        padding: 0;
-    }
-    
+    html, body{
 
+        margin: 0;    
+        padding: 0;
+        border: 0;
+    }
     
     height: 55px;
     background-color: #2196F3;
