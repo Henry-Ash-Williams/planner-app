@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-const removeMargin = {
-    "margin": 0,
-    "padding": 0
-}
+const removeMargin = { "margin":0, "padding":0, "box-sizing": "border-box" }
+    
+
+
 
 ReactDOM.render(
-    <App style={removeMargin}/>,
+    <App />,
     document.getElementById('root')
 );
 registerServiceWorker();

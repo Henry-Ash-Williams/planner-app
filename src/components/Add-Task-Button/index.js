@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './css/css/index.css';
- 
+import AddTaskButtonDiv from './styles';
+
 class AddTaskButton extends Component {
     constructor(props) {
         super(props);
@@ -17,11 +17,11 @@ class AddTaskButton extends Component {
 
     render() {
         return ( 
-            <div className="Add-Task">
+            <AddTaskButtonDiv>
                 <button className="Add-Task-Button" onClick={this.handleClick}>
                     <i className="material-icons">add</i>
                 </button>
-            </div>
+            </AddTaskButtonDiv>
         );
     }
 }
