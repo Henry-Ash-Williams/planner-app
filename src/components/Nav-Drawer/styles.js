@@ -29,7 +29,7 @@ const NavDrawerDiv = styled.div`
         top: 0;
         left: 0;
         z-index: 1;
-        width: 20%;
+        width: 30%;
         height: 100%;
         background-color: #FFFFFF; 
     }
@@ -37,23 +37,23 @@ const NavDrawerDiv = styled.div`
     .Nav-Drawer-Modal .Nav-Drawer-Modal-Header {
         top: 0;
         left: 0;
-        height: 360px;
+        height: 40%;
         border: none;
         background: linear-gradient(45deg, #2196F3, #1976D2);
     }
 
     .Nav-Drawer-Modal .Nav-Drawer-Modal-Header h1 {
-        padding-top: 95px;
-        padding-left: 50px;
+        padding-top: 7.5%;
+        padding-left: 5%;
         font-family: "Roboto", sans-serif;
         font-weight: 300;
-        font-size: 2.5em;
+        font-size: 2.75vw;
         color: #FFFFFF; 
     }
 
     .Nav-Drawer-Modal .Nav-Drawer-Modal-Header h2 {
-        font-size: 1.875em;
-        padding-left: 50px;
+        font-size: 1.75vw;
+        padding-left: 5%;
         font-family: "Roboto", sans-serif;
         font-weight: 300;
         color: #FFFFFF; 
