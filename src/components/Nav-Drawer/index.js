@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import NavDrawerDiv from './styles';
 import moment from 'moment';
 
-
-const date = () => moment().format('dddd Do MMMM YYYY')
+const date = () => moment().format('dddd Do MMMM YYYY');
 
 class NavDrawer extends Component {
     render() {
