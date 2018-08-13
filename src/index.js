@@ -7,6 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
     
 
 
+import registerServiceWorker from './registerServiceWorker'; 
 
 ReactDOM.render(
     <App />,
