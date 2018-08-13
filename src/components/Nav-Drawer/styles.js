@@ -29,7 +29,7 @@ const NavDrawerDiv = styled.div`
         top: 0;
         left: 0;
         z-index: 1;
-        width: 30%;
+        width: 25%;
         height: 100%;
         background-color: #FFFFFF; 
     }
