@@ -22,7 +22,7 @@ class AddTaskButton extends Component {
                 <button className="Add-Task-Button" onClick={this.handleClick}>
                     <i className="material-icons">add</i>
                 </button>
-                {this.state.clicked ? <AddTaskMenu /> : null}
+                {this.state.clicked ? <AddTaskMenu onClick={this.handleClick}/> : null}
             </AddTaskButtonDiv>
         );
     }

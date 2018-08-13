@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
- 
-
 
 class AddTaskMenu extends Component {
     render() {
         return ( 
             <div className="Add-Task-Menu">
+                <button onClick={this.props.onClick}> <i class="material-icons">close</i></button>
                 <h1>New Task</h1>
                 <form className="Add-Task-Form" id="Add-Task-Form">
                     <p>Title:</p>
@@ -21,4 +20,5 @@ class AddTaskMenu extends Component {
         );
     }
 }
+
 export default AddTaskMenu;
