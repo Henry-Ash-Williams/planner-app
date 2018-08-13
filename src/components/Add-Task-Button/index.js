@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import AddTaskMenu from '../Add-Task-Menu/index';
 import AddTaskButtonDiv from './styles';
 
 class AddTaskButton extends Component {
@@ -21,6 +22,7 @@ class AddTaskButton extends Component {
                 <button className="Add-Task-Button" onClick={this.handleClick}>
                     <i className="material-icons">add</i>
                 </button>
+                {this.state.clicked ? <AddTaskMenu /> : null}
             </AddTaskButtonDiv>
         );
     }
