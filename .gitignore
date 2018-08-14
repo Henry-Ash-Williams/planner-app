@@ -28,3 +28,5 @@ yarn-error.log*
 *.css.map
 
 /src/depreciated
+
+/.vscode
