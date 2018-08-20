@@ -19,7 +19,7 @@ class AddTaskButton extends Component {
     render() {
         return ( 
             <AddTaskButtonDiv>
-                <button className="Add-Task-Button" onClick={this.handleClick}>
+                <button className="Add-Task-Button" onClick={this.handleClick} onSubmit={this.handleClick}>
                     <i className="material-icons">add</i>
                 </button>
                 {this.state.clicked ? <AddTaskMenu onClick={this.handleClick}/> : null}

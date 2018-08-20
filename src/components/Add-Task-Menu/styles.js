@@ -9,9 +9,10 @@ const AddTaskMenuDIv = styled.div`
     height: 100%;
     background-color: #fff;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     h1 {
         
-        font-family: 'Roboto', sans-serif;
+        
         font-weight: 300;
         font-size: 2em;
     }
@@ -27,9 +28,10 @@ const AddTaskMenuDIv = styled.div`
             font-size: 2.963em;
         }
     }
-    #InfiniteCalendar{
+    .InfiniteCalendar{
+        width: 400px;
         margin: auto;
-        width: 500px;
+        user-select: none;
     }
 `
 
