@@ -8,7 +8,7 @@ const NavbarDiv = styled.div`
         padding: 0;
         border: 0;
     }
-    
+    width: 100%;
     height: 55px;
     background-color: #2196F3;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);

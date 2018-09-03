@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import AddTaskMenuDiv from './styles';
-// import InfiniteCalendar from 'react-infinite-calendar';
-// import 'react-infinite-calendar/styles.css';
-
 import 'flatpickr/dist/themes/material_blue.css';
 import Flatpickr from 'react-flatpickr';
 

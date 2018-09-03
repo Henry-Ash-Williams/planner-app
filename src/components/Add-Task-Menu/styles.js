@@ -14,7 +14,7 @@ const AddTaskMenuDIv = styled.div`
         
         
         font-weight: 300;
-        font-size: 2em;
+        font-size: 2.5em;
     }
     button {
         top: 20px;
